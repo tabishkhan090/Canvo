@@ -12,5 +12,12 @@
   "type": "commonjs",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*"
+  },
+  "exports": {
+    "./config": "./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "node": "^24.8.0"
   }
 }
