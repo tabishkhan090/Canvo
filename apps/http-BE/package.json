@@ -13,7 +13,10 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.3",
-    "@repo/typescript-config": "workspace:*"
+    "@types/jsonwebtoken": "^9.0.10"
   }
 }
